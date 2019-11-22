@@ -6,7 +6,7 @@
 nethelper is a [Golang](https://golang.org) package which provides helper fuctions for networks.
 
 ## Features
-* [Get Preferred Outbound IP]()
+* [Get Preferred Outbound IP](https://godoc.org/github.com/northbright/nethelper#GetOutboundIP)
 
 ## Documentation
 * [API References](https://godoc.org/github.com/northbright/nethelper)
