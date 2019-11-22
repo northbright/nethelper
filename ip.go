@@ -19,6 +19,7 @@ func GetOutboundIP() (net.IP, error) {
 	if err != nil {
 		return nil, fmt.Errorf("GetOutboundIP error: %v", err)
 	}
+	defer conn.Close()
 
 	// Get UDP address from connection.
 	localAddr := conn.LocalAddr().(*net.UDPAddr)
